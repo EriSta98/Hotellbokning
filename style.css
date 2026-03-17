@@ -84,7 +84,7 @@ button:hover {
 
 .picturecollage {
     display: flex;
-    gap: 250px;
+    gap: 400px;
     margin-top: 100px;
     justify-content: center;
 }
@@ -96,8 +96,8 @@ button:hover {
 }
 
 .card img {
-    width: 150%;
-    height: 250px;
+    width: 250%;
+    height: 350px;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4)
