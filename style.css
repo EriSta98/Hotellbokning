@@ -23,17 +23,25 @@ nav a {
 
 .hero {
     text-align: center;
-    padding: 100px 20px;
+    font-size: large;
+    padding: 150px 20px;
     background:url(pics/HotelBackground.jpg) center/cover;
     color: white;
 }
 
 .btn {
     background: #e67e22;
-    padding: 12px 20px;
+    font-size: medium;
+    padding: 6px 15px;
     color: white;
     text-decoration: none;
     border-radius: 5px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 10px;
 }
 
 .booking {
