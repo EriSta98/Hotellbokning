@@ -1,0 +1,76 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background:url(pics/HotelBackground.jpg) center/cover;
+    color: white;
+}
+
+.btn {
+    background: #e67e22;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.booking {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input,select,button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background: #e67e22;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #cf711f;
+}
+
+.hidden {
+    display: none;
+}
+
+#confirmation {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
