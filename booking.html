@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boka rum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Grand Hotel</h1>
+        <nav>
+            <a href="index.html">Start</a>
+            <a href="booking.html">Boka rum</a>
+        </nav>
+    </header>
+
+    <section class="booking">
+        <h2>Boka ditt rum</h2>
+
+        <form id="bookingForm">
+
+            <label>Namn</label>
+            <input type="text" id="name" required>
+
+            <label>Datum</label>
+            <input type="date" required>
+
+            <label>Välj rum</label>
+            <select id="room">
+                <option>Standard</option>
+                <option>Deluxe</option>
+                <option>Suite</option>
+            </select>
+
+            <button type="submit">Boka</button>
+
+        </form>
+
+        <p id="confirmation" class="hidden">Bokningen är bekräftad!</p>
+    </section>
+
+<script src="script.js"></script>
+
+
+
+    
+</body>
+</html>
