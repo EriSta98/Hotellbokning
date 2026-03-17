@@ -45,7 +45,7 @@ nav a {
 }
 
 .booking {
-    max-width: 400px;
+    max-width: 600px;
     margin: 50px auto;
     background: white;
     padding: 30px;
@@ -81,4 +81,37 @@ button:hover {
     color: black;
     text-align: center;
 }
+
+.picturecollage {
+    display: flex;
+    gap: 250px;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+    width: 150%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4)
+}
+
+.card p {
+    margin-left: -50px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
 
