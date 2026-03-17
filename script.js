@@ -1,5 +1,5 @@
 const form = document.getElementById("bookingForm");   /*Hämta bokningsformuläret*/
-const confirmation = document.getElementById("confirmation");  /*Hämta bekräftelsemeddelandet*/ 
+const confirmationContainer = document.getElementById("confirmationContainer")  /*Hämta bekräftelsemeddelandet och länk till startsidan*/
 const title = document.getElementById("bookingTitle");  /*Hämta titeln ("boka ditt rum" i bokningsformuläret)*/
 
 form.addEventListener("submit", function(event){ /*Lyssnar efter händelse (knapptryck) i bokningsformuläret*/
@@ -10,5 +10,5 @@ form.addEventListener("submit", function(event){ /*Lyssnar efter händelse (knap
 
     title.style.display = "none"; /*Gömmer "boka ditt rum" för renare UI*/
 
-    confirmation.classList.remove("hidden"); /*När boka knappen trycks, göms hidden klassen och formuläret försvinner samt bekräftelsemeddelandet visas*/
+    confirmationContainer.classList.remove("hidden") /*När boka knappen trycks, göms hidden klassen/länken och formuläret försvinner samt bekräftelsemeddelandet visas*/
 })
